@@ -1,41 +1,43 @@
-#movies img, #movie #comments  img{
-  width:100%;
-}
-#comments{
-
+#movies img, #movie #comments img {
+    width: 100%;
 }
 
+#comments {}
 
-body{
-    background-color:#141A1F;
-}   
-img{
+body {
+    background-color: #141A1F;
+}
+
+img {
     border-radius: 9px;
 }
-.movie-wrap{
+
+.movie-wrap {
     border-radius: 0px 0px 1px 5px;
 }
-.mov-title{
+
+.mov-title {
     border-radius: 7px;
-       color: #fff;
+    color: #fff;
     font-size: 15px;
     position: absolute;
     bottom: 6px;
     width: 85%;
-    margin-bottom:13px;
+    margin-bottom: 13px;
     /* left: 23px; */
-    padding: 12px;
     background: rgba(0, 0, 0, 0.2);
-   
-
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.mcon{
+
+.mcon {
     border-radius: 10px;
     text-align: center;
-    padding:0;
+    padding: 0;
 }
-.mov-btn{
-    display:none;
+
+.mov-btn {
+    display: none;
 }
 
 /*@media(min-width:960px){
@@ -47,7 +49,8 @@ img{
         height:340px;
     }
     */
-  /*  #comments .btn{
+
+/*  #comments .btn{
         margin-top: 50px;
     }
     }*/
