@@ -24,7 +24,7 @@ function getMovies (searchText)
             console.log(movies);
             let output = '';
             // defaultpicture = "https://americana.org/wp-content/uploads/2018/07/default.jpg"
-            defaultpicture = "http://www.reelviews.net/resources/img    /default_poster.jpg"
+            defaultpicture = "http://www.reelviews.net/resources/img/default_poster.jpg"
             $.each(movies, (index, movie) =>
             {
                 if (typeof movie != 'undefined')
