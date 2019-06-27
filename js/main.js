@@ -23,7 +23,6 @@ function getMovies (searchText)
             let movies = response.data.results;
             console.log(movies);
             let output = '';
-            // defaultpicture = "https://americana.org/wp-content/uploads/2018/07/default.jpg"
             defaultpicture = "http://www.reelviews.net/resources/img/default_poster.jpg"
             $.each(movies, (index, movie) =>
             {
