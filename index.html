@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Movie info</title>
@@ -8,32 +9,47 @@
 
 
 </head>
+
 <body>
+
+
+
+
   <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">MovieInfo</a>
-      </div>
+
+    <div style="padding: 3px;" class="navbar-header">
+      <a class="navbar-brand" style="padding: 3px;" href="index.html">
+        <img src="mov4.png" style="width:40px; height:40px;margin:4px 4px; " alt="">
+      </a>
+      <h6> Movieinfo</h6>
     </div>
+    <form id="searchForm" style="float:right; padding:9px;margin:auto" class="form-inline my-2 my-lg-0 float-right">
+      <input id="searchText" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </nav>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="jumbotron">
       <h3 class="text-center">Search For Any Movie</h3>
       <form id="searchForm">
-        <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+        <input type="text" class="form-control" placeholder="Search Movies...">
       </form>
     </div>
-  </div>
+  </div> -->
 
   <div class="container">
     <div id="movies" class="row"></div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>

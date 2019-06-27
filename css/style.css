@@ -3,10 +3,14 @@
     height: 100%
 }
 
+.container {
+    margin: auto;
+}
+
 #comments {}
 
 body {
-    background-color: #141A1F;
+    background-color: #1E2129;
 }
 
 img {
@@ -37,9 +41,9 @@ img {
     padding: 0;
 }
 
-.mov-btn {
+/* .mov-btn {
     display: none;
-}
+} */
 
 /*@media(min-width:960px){
     #comments #movies .col-md-3 .well{
